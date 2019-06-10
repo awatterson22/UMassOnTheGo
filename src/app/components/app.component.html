@@ -1,0 +1,18 @@
+<div style="text-align:center">
+    <ul class="topnav">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#orders">Orders</a></li>
+        <li><a onclick="campusLoc()">Campus
+        Locations</a></li>
+        <li style="float:right"><a>UMass {{title}}</a></li>
+    </ul>
+</div>
+<script>
+    function campusLoc() {
+        var iframe = document.createElement('iframe');
+        iframe.src = 'https://www.google.com/maps/search/umass+amherst+cafes/@42.3854184,-72.5343985,15z/data=!3m1!4b1';
+        document.body.appendChild(iframe);
+    }
+</script>
+<router-outlet></router-outlet>
