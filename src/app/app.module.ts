@@ -3,16 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app.component';
-import { CampusLocComponent } from './campus-loc/campus-loc.component';
-import { MenuComponent } from './menu/menu.component';
-import { OrdersComponent } from './orders/orders.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { OrdersComponent } from './components/orders/orders.component';
+import { UmassLogoComponent } from './components/umass-logo/umass-logo.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CampusLocComponent,
     MenuComponent,
-    OrdersComponent
+    OrdersComponent,
+    UmassLogoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

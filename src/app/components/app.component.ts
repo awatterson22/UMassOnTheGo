@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { OrdersComponent } from './orders/orders.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'OnTheGo';
+}
+
+function onNavigate(url: string) {
+  window.open(url, "_blank");
 }
