@@ -6,15 +6,13 @@ import { AppComponent } from './components/app.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { OrdersComponent } from './components/orders/orders.component';
 import { UmassLogoComponent } from './components/umass-logo/umass-logo.component';
-import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     OrdersComponent,
-    UmassLogoComponent,
-    HomeComponent
+    UmassLogoComponent
   ],
   imports: [
     BrowserModule,
