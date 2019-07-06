@@ -4,6 +4,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { OrdersComponent } from './components/orders/orders.component';
 import { UmassLogoComponent } from './components/umass-logo/umass-logo.component';
 
+
 const routes: Routes = [
   { path: 'menu', component: MenuComponent },
   { path: 'orders', component: OrdersComponent },
