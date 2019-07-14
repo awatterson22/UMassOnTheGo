@@ -1,23 +1,36 @@
 .btn-group .button {
-    background-color: rgb(110, 110, 110);
-    border: 1px solid rgb(161, 163, 161);
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
+    border: 3px solid rgb(44, 43, 43);
+    color: rgb(44, 43, 43);
+    padding: 170px;
     text-decoration: none;
-    font-size: 16px;
-    border-radius: 15px;
+    font-size: 45px;
     cursor: pointer;
     float: bottom;
-    height: 100%;
+    height: 50%;
     width: 50%;
+    font-weight: bold;
 }
 
-.btn-group .button:not(:last-child) {
-    border-right: none;
-    /* Prevent double borders */
+.iced-beverages-button {
+    background: linear-gradient(rgba(187, 186, 186, 0.5), rgba(255, 255, 255, .5)), url(http://www.thecookierookie.com/wp-content/uploads/2016/01/thai-iced-coffee-7-of-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.btn-group .button:hover {
-    background-color: #323332;
+.hot-beverages-button {
+    background: linear-gradient(rgba(187, 186, 186, 0.5), rgba(255, 255, 255, .5)), url(https://article.images.consumerreports.org/prod/content/dam/cro/news_articles/health/CR_Health-II-hot-drinks-coffee-12-15);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frappuchinos-button {
+    background: linear-gradient(rgba(187, 186, 186, 0.5), rgba(255, 255, 255, .5)), url(https://chocolatecoveredkatie.com/wp-content/uploads/homemade-Frappuccino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food-button {
+    background: linear-gradient(rgba(187, 186, 186, 0.5), rgba(255, 255, 255, .5)), url(https://static.comicvine.com/uploads/original/6/63459/5381607-2110424540-2-cho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
